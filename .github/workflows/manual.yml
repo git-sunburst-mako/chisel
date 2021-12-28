@@ -59,7 +59,7 @@ jobs:
         id: docker_meta
         uses: crazy-max/ghaction-docker-meta@v1
         with:
-          images: jpillora/chisel
+          images: git-sunburst-mako/chisel
           tag-latest: true
           # Outputs:
           # jpillora/chisel:1.2.3
